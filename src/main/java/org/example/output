@@ -1,0 +1,16 @@
+Each household and number of occupants:
+234 2ND AVE TACOMA FL : 1
+123 MAIN ST SEATTLE WA : 4
+345 3RD BLVD APT 200 SEATTLE WA : 2
+234 2ND AVE SEATTLE WA : 1
+234 2ND AVE TACOMA WA : 2
+
+
+Each First Name, Last Name, Address and Age sorted by Last Name then First Name where the occupant(s) is older than 18:
+Carol Johnson, 234 2ND AVE SEATTLE WA, 67
+Frank Jones, 234 2ND AVE TACOMA FL, 23
+Alice Smith, 123 MAIN ST SEATTLE WA, 45
+Dave Smith, 123 MAIN ST SEATTLE WA, 43
+Eve Smith, 234 2ND AVE TACOMA WA, 25
+Bob Williams, 234 2ND AVE TACOMA WA, 26
+

@@ -1,0 +1,20 @@
+* Assumption - Input is taken from console which removes the quotes from input.(In case input is read from file,
+I would split every line based on ""\\",\\"" that is ",").
+Input is the array of String containing information of a person.
+
+Then I parse input to a list of <Person> object which has firstName, lastName, address and age of a person.
+
+* Assumption - First name is in the 0th index, last name is in the first index. Age is in the last index.
+Name will not be blank or null. Name will only be having alphabet values.
+* Assumption - Age will not be null, blank, will not be lesser than 0, will not be a decimal number.
+* Assumption - Everything from second to last index but one is address. Address is not case sensitive, cannot be null,
+cannot be blank.
+Address is normalised to <street address>space<apt number if any>space<city>space<state> format in upper case
+and any dots, commas or trailing spaces are removed.
+
+Then I create a map of <Address, CountofOccupantsInThatAddress> for every address from list of <Person> and print it.
+
+Then I make a new List of Person with age > 18. This list is then sorted based on last name and then first name
+using the comparator function. This is then printed in sorted order.
+
+I have added unit tests in src/test/java folder in class - TestCases.java
